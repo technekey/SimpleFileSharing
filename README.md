@@ -41,11 +41,11 @@ python3 share.py /home/foobar/photos/ --port 8080  --url family-photos
 
 ### Example Output on Terminal: 
 
-In the following example, Anyone in the LAN can download the files via ``` http://192.168.1.174:8080/family-photos/``` URL.
+In the following example, Anyone in the LAN can download the files via ``` http://192.XX.YY.ZZ:8080/family-photos/``` URL.
 ```
 python3 share.py /home/foobar/photos/ --port 8080  --url family-photos
 2024-11-04 12:58:53,647 - INFO - Added to shared paths: /home/foobar/photos/
-2024-11-04 12:58:53,647 - INFO - Files available at: http://192.168.1.174:8080/family-photos/
+2024-11-04 12:58:53,647 - INFO - Files available at: http://192.XX.YY.ZZ:8080/family-photos/
 INFO:     Started server process [16912]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
